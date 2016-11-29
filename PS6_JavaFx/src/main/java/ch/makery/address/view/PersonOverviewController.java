@@ -184,7 +184,7 @@ public class PersonOverviewController {
             	//TODO: Delete the person, call the updatePerson(perID) method
             	//		in the DAL
             	
-            	PersonDAL.updatePerson(selectedPerson);
+            	PersonDAL.update(selectedPerson);
                 showPersonDetails(selectedPerson);
                 mainApp.RefreshPersonTable();
             }
